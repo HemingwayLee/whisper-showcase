@@ -1,7 +1,7 @@
 import whisper
 
 model = whisper.load_model("turbo")
-result = model.transcribe("audio.mp3")
+result = model.transcribe("meta.mp3")
 print(result["text"])
 
 
